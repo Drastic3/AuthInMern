@@ -6,6 +6,7 @@ import EmailVerify from "./components/EmailVerify";
 
 function App() {
 	const user = localStorage.getItem("token");
+	console.log(user)
 
 	return (
 		<Routes>
